@@ -1,4 +1,4 @@
-﻿
+﻿Order Id,Line Number,Vendor Id,Vendor Name,Product Id,Product Name,Product Description,Product Price,Order Quantity,Cost Per Order,Accounts Payable Terms,Order Date,Arrival Date
 10001,1,1001,Hulkey Fasteners,1122,Airframe fasteners,Airframe fasteners by Hulkey Fasteners,4.25,19500.00,82875.00,30,6/21/18,7/11/18
 10002,1,1005,Alum Sheeting,1243,Airframe fasteners,Airframe fasteners by Alum Sheeting,4.25,10000.00,42500.00,30,6/24/18,7/12/18
 10003,1,1004,Fast-Tie Aerospace,5462,Shielded Cable/ft.,Shielded Cable/ft. by Fast-Tie Aerospace,1.05,23000.00,24150.00,30,6/26/18,7/13/18
