@@ -326,7 +326,7 @@ INSERT INTO `rating` (`RTG_CODE`, `RTG_NAME`) VALUES
 -- 
 CREATE TABLE IF NOT EXISTS `airport` (
 	`airport_code` varchar(3) NOT NULL DEFAULT '',
-    `name` varchar(50),
+    `city` varchar(50),
     `zip_code` int(5),
     `time_zone` varchar(6),
     `airport_use` varchar(20),
@@ -334,14 +334,14 @@ CREATE TABLE IF NOT EXISTS `airport` (
     primary key (`airport_code`)
 )ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-INSERT INTO airport (airport_code, name, zip_code, time_zone, airport_use, activation) VALUES
-('ATL', 'Jackson Atlanta International Airport', 30337, 'UTC-4', 'Open to public', '1942-09-01'),
-('BNA', 'Nashville International Airport', 37217, 'UTC-5', 'Open to public', '1937-12-01'),
-('GNV', 'Gainesville Regional Airport', 32609, 'UTC-4', 'Open to public', '1940-04-01'),
-('STL', 'St Louis Lambert International Airport', 63134, 'UTC-5', 'Open to public', '1940-04-01'),
-('TYS', 'Mc Ghee Tyson Airport', 37701, 'UTC-4', 'Open to public', '1970-01-01'),
-('MOB', 'Mobile Regional Airport', 36608, 'UTC-5', 'Open to public', '1942-04-01'),
-('MQY', 'Smyrna Airport', 37167, 'UTC-5', 'Open to public', '1942-10-01');	
+INSERT INTO airport (airport_code, city, zip_code, time_zone, airport_use, activation) VALUES
+('ATL', 'Atlanta', 30337, 'UTC-4', 'Open to public', '1942-09-01'),
+('BNA', 'Nashville', 37217, 'UTC-5', 'Open to public', '1937-12-01'),
+('GNV', 'Gainesville', 32609, 'UTC-4', 'Open to public', '1940-04-01'),
+('STL', 'St. Louis', 63134, 'UTC-5', 'Open to public', '1940-04-01'),
+('TYS', 'Alcoa', 37701, 'UTC-4', 'Open to public', '1970-01-01'),
+('MOB', 'Mobile', 36608, 'UTC-5', 'Open to public', '1942-04-01'),
+('MQY', 'Smyrna', 37167, 'UTC-5', 'Open to public', '1942-10-01');	
 
 --
 -- -------------------------------------------------------------------------------------------
