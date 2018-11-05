@@ -1,0 +1,1 @@
+db.city.find( {$and : [ {city: 'CASTRO VALLEY'}, {_id: '94546'} ] } )
